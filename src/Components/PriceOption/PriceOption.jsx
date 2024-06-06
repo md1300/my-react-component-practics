@@ -6,7 +6,7 @@ const PriceOption = ({option}) => {
     return (
         <div className='flex flex-col bg-blue-200 m-6 px-4 pr-4 pt-4'>
             <h2>
-                <span className='text-5xl'>{price}</span>
+                <span className='text-5xl text-center'>{price}</span>
                 
             </h2>
             <h2 className='text-3xl'>{name}</h2>
